@@ -1522,8 +1522,11 @@
         #### On the Ascending Layers$^\dagger$
 
         <section>
-          <p style="width: 100%;">
-            The $xy$-plane of the auxiliary set agents $u'_i$ and $l'_i$ is free from other agents, except for the parts of other ascending layers that go straight up. That is, the parts of the chains from $u_j$ to $u'_j$ and from $l'_j$ to $l_j$. Due to the construction of the bottom layer, the distance between two of such parts that go straight up is at least $10-\epsilon$. Thus, when constructing the part of the ascending layer that is parallel to the $xy$-plane, that is the chain from $u'_i$ to $l'_i$, we have enough space to "go around" a straight up chain parts from $u_j$ to $u'_j$ or $l'_j$ to $l_j$. Additionally, we can verify in constant time, whether two lines intersect.
+          <p>
+          The $xy$-plane of the auxiliary set agents $u'_i$ and $l'_i$ is free from other agents, except for the parts of other ascending layers that go straight up. That is, the parts of the chains from $u_j$ to $u'_j$ and from $l'_j$ to $l_j$. Due to the construction of the bottom layer, the distance between two of such parts that go straight up is at least $10-\epsilon$. Thus, when constructing the part of the ascending layer that is parallel to the $xy$-plane, that is the chain from $u'_i$ to $l'_i$, we have enough space to "go around" a straight up chain parts from $u_j$ to $u'_j$ or $l'_j$ to $l_j$. 
+          </p>
+          <p>
+          Additionally, we can compute the distance between 2 lines in 3D space in constant time. The distance formula is $\frac{|(\vec a_2 - \vec a_1) \cdot (\vec b_1 \times \vec b_2)|}{|\vec b_1 \times \vec b_2|}$, where $\vec a_1, \vec a_2$ are position vectors on the two lines, and $\vec b_1, \vec b_2$ are their direction vectors.
           </p>
         </section>
 
